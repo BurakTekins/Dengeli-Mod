@@ -1,0 +1,16 @@
+version="1.37.*"
+tags={
+	"Balance"
+	"Missions And Decisions"
+	"Gameplay"
+	"National Ideas"
+	"Loading Screen"
+	"Technologies"
+	"Trade"
+	"Utilities"
+	"New Nations"
+	"Events"
+}
+name="Dengeli Mod"
+supported_version="v1.37.*"
+remote_file_id="3742028664"
