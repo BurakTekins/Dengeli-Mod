@@ -8013,8 +8013,8 @@ ANS_ideas = {
 
 BYT_ideas = {
 	start = {
-		ae_impact = -0.1
-		global_tax_modifier = 0.1
+		global_trade_goods_size_modifier = 0.1
+		merc_maintenance_modifier = -0.15
 	}
 	bonus = {
 		discipline = 0.05
@@ -8023,28 +8023,28 @@ BYT_ideas = {
 		tag = BYT
 	}
 	free = yes
-
+	
+	byt_land_of_the_hohenzollerns = {
+		diplomatic_reputation = 1
+	}
+	ans_restore_the_burgraviate = {
+		# ae_impact = -0.1
+	}
+	ans_plassenburg = {
+		garrison_size = 0.2
+	}
+	ans_franconian_reformers = {
+		# religious_unity = 0.1
+		# church_power_modifier = 0.1
+	}
 	byt_ordre_de_la_sincerite = {
 		army_tradition = 0.5
 	}
-	byt_franconian_drill = {
-		infantry_power = 0.1
-	}
-	byt_land_of_the_hohenzollerns = {
-		build_cost = -0.05
-		stability_cost_modifier = -0.05
+	byt_gravenreuther_stift = {
+		manpower_recovery_speed = 0.15
 	}
 	byt_margravial_opera_house = {
 		prestige = 1
-	}
-	byt_gravenreuther_stift = {
-		global_trade_goods_size_modifier = 0.1
-	}
-	byt_red_main_commerce = {
-		trade_efficiency = 0.1
-	}
-	ans_plassenburg = {
-		land_forcelimit_modifier = 0.15
 	}
 }
 

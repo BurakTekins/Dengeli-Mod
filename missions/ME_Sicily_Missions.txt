@@ -7,7 +7,6 @@ sicily_mission_1 = {
 			tag = TTS
 			tag = NAP
 			tag = SIC
-			tag = TNC
 		}
 		
 	}
@@ -266,7 +265,6 @@ sicily_mission_2 = {
 			tag = TTS
 			tag = NAP
 			tag = SIC
-			tag = TNC
 		}
 	}
 	has_country_shield = yes
@@ -533,7 +531,6 @@ sicily_mission_3 = {
 			tag = TTS
 			tag = NAP
 			tag = SIC
-			tag = TNC
 		}
 	}
 	has_country_shield = yes
@@ -986,7 +983,6 @@ sicily_mission_4 = {
 			tag = TTS
 			tag = NAP
 			tag = SIC
-			tag = TNC
 		}
 	}
 	has_country_shield = yes
@@ -1190,7 +1186,6 @@ sicily_mission_5 = {
 			tag = TTS
 			tag = NAP
 			tag = SIC
-			tag = TNC
 		}
 	}
 	has_country_shield = yes

@@ -6,7 +6,13 @@ vassal = {
 	end_date = 1526.1.1
 }
 
-# Ansbach and Bayreuth union removed - BYT starts independent
+# Ansbach and Bayreuth
+union = { #a bit more extensive than in history, I know!
+	first = ANS
+	second = BYT
+	start_date = 1440.9.20
+	end_date = 1791.12.2
+}
 
 # Wurzburg and Bamberg
 vassal = {
