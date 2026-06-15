@@ -1,0 +1,43 @@
+﻿l_english:
+
+ # --- Mission titles & descriptions ---
+ byt_iron_heart_title:0 "The Iron Heart of Franconia"
+ byt_iron_heart_desc:0 "Our hills are veined with iron. If we raise the production of every one of our founding iron provinces to a development of 10, the forges of the margraviate will become the envy of the Empire."
+ byt_developed_realm_title:0 "A Developed Realm"
+ byt_developed_realm_desc:0 "A prince is only as strong as the land he governs. Once ten of our provinces reach a production development of 10, our prosperity will draw fresh investment across the realm."
+ byt_developed_realm_dev_tt:0 "Distribute §Y10§! production development at random among our core provinces"
+ byt_workshops_of_franconia_title:0 "Workshops of Franconia"
+ byt_workshops_of_franconia_desc:0 "Craft and industry are the lifeblood of a small state. By raising ten workshops across our lands, our builders will learn to work faster and cheaper."
+ byt_pious_principality_title:0 "A Pious Principality"
+ byt_pious_principality_desc:0 "Faith and wealth go hand in hand. If ten of our provinces reach a tax development of 10 and each is crowned with a church, both our treasury and our standing in Rome shall flourish."
+ byt_trade_centers_title:0 "Centres of Commerce"
+ byt_trade_centers_desc:0 "Trade is the artery of the modern state. Once we hold three level-3 centres of trade, we shall raise a trade depot in each of them to anchor our commerce."
+ byt_stone_bridge_network_title:0 "The Stone Bridge Network"
+ byt_stone_bridge_network_desc:0 "The Stone Bridge of Regensburg is a marvel of the age. Raised to its third tier, its prosperity will radiate outward, lifting every province of Lower Bavaria and Upper Franconia."
+
+ # --- BYT copies of the shared Franconian missions ---
+ byt_fkn_build_an_army_title:0 "Fränkische Armee"
+ byt_fkn_build_an_army_desc:0 "Our aim is to unite the duchies and bishoprics of Franconia. A strong army will secure our borders and give us the means to act."
+ byt_fkn_conquer_nuremburg_title:0 "Keine Freien Städte Mehr"
+ byt_fkn_conquer_nuremburg_desc:0 "The free cities of Nuremberg must be brought under our authority if Franconia is to be united."
+ byt_fkn_conquer_wurzburg_title:0 "Ecclesiastical Control"
+ byt_fkn_conquer_wurzburg_desc:0 "The Franconian bishoprics wield too much influence. Würzburg or Bamberg must be brought under our control."
+ byt_fkn_conquer_ansbach_title:0 "Subjugate the Margraves"
+ byt_fkn_conquer_ansbach_desc:0 "Ansbach is our Hohenzollern rival in Franconia and must submit to Bayreuth."
+ byt_fkn_unifying_franconia_title:0 "Unifying Franconia"
+ byt_fkn_unifying_franconia_desc:0 "The divided lands of Franconia must be consolidated under one ruler."
+ byt_fkn_strength_in_unity_title:0 "Strength in Unity"
+ byt_fkn_strength_in_unity_desc:0 "Strong alliances will give our principality the security and influence it needs."
+ byt_fkn_recognition_of_emperor_title:0 "Zustimmung des Kaisers"
+ byt_fkn_recognition_of_emperor_desc:0 "Survival in the Empire requires either the Emperor's recognition or the Imperial crown itself."
+ byt_fkn_growing_cities_title:0 "Accommodate the Cities"
+ byt_fkn_growing_cities_desc:0 "The support of prosperous and loyal cities is essential to the growth of our state."
+ byt_fkn_raubritter_title:0 "Deal with the Raubritter"
+ byt_fkn_raubritter_desc:0 "The ambitions of the Franconian nobility must be restrained or redirected toward the service of the realm."
+
+ # --- Mission reward modifiers ---
+ byt_iron_forges:0 "Iron Forges"
+ byt_industrial_boom:0 "Industrial Boom"
+ byt_efficient_construction:0 "Efficient Construction"
+ byt_pious_realm:0 "Pious Realm"
+ byt_regensburg_bridge_network:0 "Regensburg Bridge Network"

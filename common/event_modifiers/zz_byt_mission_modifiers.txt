@@ -1,0 +1,33 @@
+# Dengeli - Bayreuth (BYT) mission reward modifiers
+
+# M1 - iron provinces reach production development 10 (province modifier, 15 years)
+byt_iron_forges = {
+	local_development_cost = -0.10
+	trade_goods_size_modifier = 0.10
+}
+
+# M2a - 10 provinces at production development 10 (country modifier, 10 years)
+byt_industrial_boom = {
+	global_trade_goods_size_modifier = 0.05
+	production_efficiency = 0.05
+}
+
+# M2b - 10 workshops built (country modifier, permanent)
+byt_efficient_construction = {
+	build_cost = -0.05
+}
+
+# M2c - 10 provinces at tax development 10 with churches (country modifier, 15 years)
+byt_pious_realm = {
+	global_tax_modifier = 0.10
+	papal_influence = 1
+}
+
+# M4 - Regensburg Stone Bridge tier 3 modifiers spread across Lower Bavaria & Upper Franconia (province modifier, permanent)
+byt_regensburg_bridge_network = {
+	province_trade_power_modifier = 0.5
+	local_development_cost = -0.1
+	local_institution_spread = 0.2
+	local_prosperity_growth = 1
+	local_monthly_devastation = -0.1
+}

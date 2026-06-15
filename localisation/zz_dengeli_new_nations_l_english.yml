@@ -1,0 +1,37 @@
+﻿l_english:
+
+ # --- Country names ---
+ HTU:0 "Rhineward"
+ HTU_ADJ:0 "Rhineward"
+ DNU:0 "Margravaria"
+ DNU_ADJ:0 "Margravarian"
+
+ # --- Rhineward ideas (Hesse path) ---
+ hesse_thuringia_ideas:0 "Rhineward Ideas"
+ hesse_thuringia_ideas_start:0 "Rhineward Traditions"
+ hesse_thuringia_ideas_bonus:0 "Rhineward Ambition"
+ hth_thrifty_administration:0 "Thrifty Administration"
+ hth_industrious_realm:0 "Industrious Realm"
+ hth_rich_lands:0 "Rich Lands"
+ hth_standing_army:0 "Standing Army"
+ hth_disciplined_troops:0 "Disciplined Troops"
+ hth_orderly_reform:0 "Orderly Reform"
+ hth_levies_of_the_land:0 "Levies of the Land"
+
+ # --- Margravaria ideas ---
+ danubia_ideas:0 "Margravarian Ideas"
+ danubia_ideas_start:0 "Margravarian Traditions"
+ danubia_ideas_bonus:0 "Margravarian Ambition"
+ dnb_imperial_architecture:0 "Imperial Architecture"
+ dnb_danube_trade:0 "Trade of the Danube"
+ dnb_grand_army:0 "Grand Army"
+ dnb_pious_splendor:0 "Pious Splendour"
+ dnb_drillmasters:0 "Drillmasters"
+ dnb_shock_cavalry:0 "Shock Cavalry"
+ dnb_recruitment_offices:0 "Recruitment Offices"
+
+ # --- Formation decisions ---
+ form_hesse_thuringia_title:0 "Form Rhineward"
+ form_hesse_thuringia_desc:0 "By gathering the lands of Hesse and Thuringia under a single crown, we shall forge Rhineward - a new Protestant power in the heart of Germany - and take up the missions of Westphalia."
+ form_danubia_title:0 "Form Margravaria"
+ form_danubia_desc:0 "With Vienna in our grasp, the Wittelsbachs may proclaim Margravaria, a Catholic realm of horsemen along the Danube, heir to the ambitions of Austria itself."

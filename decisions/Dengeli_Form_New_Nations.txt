@@ -1,0 +1,96 @@
+country_decisions = {
+
+	# Bayreuth -> Hesse-Thuringia : all of Hesse's starting lands + all of Thuringia
+	form_hesse_thuringia = {
+		major = yes
+		potential = {
+			tag = BYT
+			NOT = { exists = HTU }
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			is_colonial_nation = no
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 81
+				province_id = 1762
+				province_id = 4774
+				province_id = 63
+				province_id = 4716
+				province_id = 4743
+				province_id = 2965
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		allow = {
+			is_at_war = no
+			adm_tech = 10
+			OR = {
+				religion = protestant
+				religion = reformed
+			}
+			# Hesse - starting provinces
+			owns = 81
+			owns = 1762
+			owns = 4774
+			# Thuringia - all lands
+			owns = 63
+			owns = 4716
+			owns = 4743
+			owns = 2965
+		}
+		effect = {
+			change_tag = HTU
+			on_change_tag_effect = yes
+			change_government = theocracy
+			add_government_reform = millennialistic_theocracy_reform
+			swap_non_generic_missions = yes
+			add_prestige = 25
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	# Bayreuth -> Danubia : take Vienna
+	form_danubia = {
+		major = yes
+		potential = {
+			tag = BYT
+			NOT = { exists = DNU }
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			is_colonial_nation = no
+		}
+		provinces_to_highlight = {
+			province_id = 134
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		allow = {
+			is_at_war = no
+			adm_tech = 10
+			religion = catholic
+			# Vienna
+			owns = 134
+		}
+		effect = {
+			change_tag = DNU
+			on_change_tag_effect = yes
+			change_government = theocracy
+			add_government_reform = holy_state_reform
+			swap_non_generic_missions = yes
+			add_prestige = 25
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
