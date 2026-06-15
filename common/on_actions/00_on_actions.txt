@@ -1,6 +1,8 @@
 #When adding effects directly in on_actions always consider if it would be best to do so through a scripted effect. on_actions with a lot of script in them are harder to get an overview of.
 # country
 on_startup = {
+	# Dengeli: Suez Canal open from game start (1444)
+	add_canal = suez_canal
 	emperor = {
 		save_global_event_target_as = Emperor
 	}
@@ -2430,6 +2432,7 @@ on_monthly_pulse = {
 on_yearly_pulse = {
 	events = {
 		flavor_mos.3		#Yearly Tatar Yoke Tribute
+		dengeli_sicily.1		#Socotra core for SIC and TNC
 	}
 }
 
@@ -5289,150 +5292,6 @@ on_explorer_recruited = {
 
 # THIS = Province, FROM = Country
 on_regiment_recruited = {
-	hidden_effect = {
-		if = {
-			limit = {
-				FROM = {
-       					OR = {
-            					tag = MAM
-            					tag = EGY
-        					}
-
-					ai = no
-				}
-			}
-			if = {
-				limit = {
-					province_id = 361
-					FROM = {
-						NOT = { has_country_flag = mam_hidden_recruit_step_2 }
-						NOT = { has_country_flag = mam_hidden_recruit_step_3 }
-					}
-				}
-				FROM = {
-					if = {
-						limit = { has_country_flag = mam_hidden_recruit_step_1 }
-						clr_country_flag = mam_hidden_recruit_step_1
-						set_country_flag = mam_hidden_recruit_step_2
-					}
-					else = {
-						set_country_flag = mam_hidden_recruit_step_1
-					}
-				}
-			}
-			else_if = {
-				limit = {
-					province_id = 358
-					FROM = { has_country_flag = mam_hidden_recruit_step_2 }
-				}
-				FROM = {
-					clr_country_flag = mam_hidden_recruit_step_2
-					set_country_flag = mam_hidden_recruit_step_3
-				}
-			}
-			else_if = {
-				limit = {
-					province_id = 382
-					FROM = { has_country_flag = mam_hidden_recruit_step_3 }
-				}	
-				FROM = {
-					clr_country_flag = mam_hidden_recruit_step_3
-					add_treasury = 40
-					add_manpower = 4
-					add_adm_power = 100
-				}
-			}
-			else_if = {
-				limit = {
-					province_id = 362
-					FROM = { has_country_flag = mam_hidden_recruit_step_3 }
-				}
-				FROM = {
-					clr_country_flag = mam_hidden_recruit_step_3
-					add_treasury = 40
-					add_manpower = 4
-					add_mil_power = 100
-				}
-			}
-			else = {
-				FROM = {
-					clr_country_flag = mam_hidden_recruit_step_1
-					clr_country_flag = mam_hidden_recruit_step_2
-					clr_country_flag = mam_hidden_recruit_step_3
-				}
-			}
-			if = {
-				limit = {
-					province_id = 6025
-					FROM = {
-						NOT = { has_country_flag = mam_hidden_desert_step_2 }
-					}
-				}
-				FROM = {
-					if = {
-						limit = { has_country_flag = mam_hidden_desert_step_1 }
-						clr_country_flag = mam_hidden_desert_step_1
-						set_country_flag = mam_hidden_desert_step_2
-					}
-					else = {
-						set_country_flag = mam_hidden_desert_step_1
-					}
-				}
-			}
-			else_if = {
-				limit = {
-					province_id = 6026
-					FROM = { has_country_flag = mam_hidden_desert_step_2 }
-				}
-				FROM = {
-					clr_country_flag = mam_hidden_desert_step_2
-					add_treasury = 1000
-					add_army_professionalism = 0.20
-					add_splendor = 800
-				}
-			}
-			else = {
-				FROM = {
-					clr_country_flag = mam_hidden_desert_step_1
-					clr_country_flag = mam_hidden_desert_step_2
-				}
-			}
-			if = {
-				limit = {
-					province_id = 2318
-					FROM = {
-						NOT = { has_country_flag = mam_hidden_tradition_step_2 }
-					}
-				}
-				FROM = {
-					if = {
-						limit = { has_country_flag = mam_hidden_tradition_step_1 }
-						clr_country_flag = mam_hidden_tradition_step_1
-						set_country_flag = mam_hidden_tradition_step_2
-					}
-					else = {
-						set_country_flag = mam_hidden_tradition_step_1
-					}
-				}
-			}
-			else_if = {
-				limit = {
-					province_id = 2317
-					FROM = { has_country_flag = mam_hidden_tradition_step_2 }
-				}
-				FROM = {
-					clr_country_flag = mam_hidden_tradition_step_2
-					add_army_tradition = 30
-				}
-			}
-			else = {
-				FROM = {
-					clr_country_flag = mam_hidden_tradition_step_1
-					clr_country_flag = mam_hidden_tradition_step_2
-				}
-			}
-		}
-	}
 }
 
 # THIS = Province, FROM = Country, ROOT = Merc Unit

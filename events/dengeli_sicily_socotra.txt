@@ -1,0 +1,43 @@
+namespace = dengeli_sicily
+
+# The moment Sicily / Crown of Isles (TNC) has a colonist (i.e. is able to
+# colonize), the province of Socotra (1099) is directly handed over to it
+# - owner, controller and core. Fired yearly from on_yearly_pulse.
+country_event = {
+	id = dengeli_sicily.1
+	hidden = yes
+
+	is_triggered_only = yes
+
+	trigger = {
+		OR = {
+			tag = SIC
+			tag = TNC
+		}
+		num_of_colonists = 1
+		NOT = { 1099 = { owned_by = ROOT } }
+	}
+
+	immediate = {
+		# Guarded so it can never fire for the wrong country even if the
+		# on_action ignores the trigger; self-limiting via the ownership check.
+		if = {
+			limit = {
+				OR = {
+					tag = SIC
+					tag = TNC
+				}
+				num_of_colonists = 1
+				NOT = { 1099 = { owned_by = ROOT } }
+			}
+			1099 = {
+				cede_province = ROOT
+				add_core = ROOT
+			}
+		}
+	}
+
+	option = {
+		name = "dengeli_sicily.1.a"
+	}
+}

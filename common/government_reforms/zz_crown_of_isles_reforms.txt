@@ -1,0 +1,31 @@
+blessed_plutocracy = {
+	icon = "admiralty_reform"
+	allow_normal_conversion = yes
+	duration = 4
+	legacy_equivalent = merchant_republic
+	valid_for_nation_designer = no
+
+	potential = {
+		tag = TNC
+	}
+	trigger = {
+		tag = TNC
+	}
+
+	modifiers = {
+		merchants = 1
+		global_trade_power = 0.10
+		trade_efficiency = 0.10
+		tolerance_own = 2
+		max_absolutism = -10
+	}
+
+	custom_attributes = {
+		enables_plutocratic_idea_group = yes
+		enables_aristocratic_idea_group = no
+	}
+
+	ai = {
+		factor = 1
+	}
+}
