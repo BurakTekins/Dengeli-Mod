@@ -3,11 +3,16 @@ WES_missions_1 = {
 	generic = no
 	ai = yes
 	potential = {
+		OR = {
+			tag = HTU
+			AND = {
 				tag = WES
 				OR = {
-					primary_culture = hannoverian 
-					primary_culture = hessian 
-					}
+					primary_culture = hannoverian
+					primary_culture = hessian
+				}
+			}
+		}
 	}
 	has_country_shield = yes
 
@@ -238,11 +243,16 @@ WES_missions_2 = {
 	generic = no
 	ai = yes
 	potential = {
+		OR = {
+			tag = HTU
+			AND = {
 				tag = WES
 				OR = {
-					primary_culture = hannoverian 
-					primary_culture = hessian 
-					}
+					primary_culture = hannoverian
+					primary_culture = hessian
+				}
+			}
+		}
 	}
 	has_country_shield = yes
 
@@ -460,11 +470,16 @@ WES_missions_3 = {
 	generic = no
 	ai = yes
 	potential = {
+		OR = {
+			tag = HTU
+			AND = {
 				tag = WES
 				OR = {
-					primary_culture = hannoverian 
-					primary_culture = hessian 
-					}
+					primary_culture = hannoverian
+					primary_culture = hessian
+				}
+			}
+		}
 	}
 	has_country_shield = yes
 
@@ -817,11 +832,16 @@ WES_missions_4 = {
 	generic = no
 	ai = yes
 	potential = {
+		OR = {
+			tag = HTU
+			AND = {
 				tag = WES
 				OR = {
-					primary_culture = hannoverian 
-					primary_culture = hessian 
-					}
+					primary_culture = hannoverian
+					primary_culture = hessian
+				}
+			}
+		}
 	}
 	has_country_shield = yes
 
@@ -1038,11 +1058,16 @@ WES_missions_5 = {
 	generic = no
 	ai = yes
 	potential = {
+		OR = {
+			tag = HTU
+			AND = {
 				tag = WES
 				OR = {
-					primary_culture = hannoverian 
-					primary_culture = hessian 
-					}
+					primary_culture = hannoverian
+					primary_culture = hessian
+				}
+			}
+		}
 	}
 	has_country_shield = yes
 

@@ -1,0 +1,113 @@
+sicily_sardinia_missions = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = SIC
+	}
+	has_country_shield = yes
+
+	sic_subjugate_sardinia = {
+		icon = seize_sardinia
+		position = 16
+		required_missions = { }
+		trigger = {
+			SAR = {
+				exists = yes
+				is_subject = no
+				has_opinion = {
+					who = ROOT
+					value = 190
+				}
+				owes_favors = {
+					who = ROOT
+					value = 20
+				}
+			}
+		}
+		effect = {
+			create_subject = {
+				subject_type = hereditary_pronoia_subject_type
+				subject = SAR
+			}
+		}
+	}
+
+	sic_subjugate_knights = {
+		icon = fortify_malta
+		position = 17
+		required_missions = { sic_subjugate_sardinia }
+		trigger = {
+			KNI = {
+				exists = yes
+				is_subject = no
+				has_opinion = {
+					who = ROOT
+					value = 190
+				}
+				owes_favors = {
+					who = ROOT
+					value = 20
+				}
+			}
+		}
+		effect = {
+			create_subject = {
+				subject_type = hereditary_pronoia_subject_type
+				subject = KNI
+			}
+		}
+	}
+
+	sic_subjugate_naxos = {
+		icon = mission_invade_island
+		position = 18
+		required_missions = { sic_subjugate_knights }
+		trigger = {
+			NAX = {
+				exists = yes
+				is_subject = no
+				has_opinion = {
+					who = ROOT
+					value = 190
+				}
+				owes_favors = {
+					who = ROOT
+					value = 20
+				}
+			}
+		}
+		effect = {
+			create_subject = {
+				subject_type = hereditary_pronoia_subject_type
+				subject = NAX
+			}
+		}
+	}
+
+	sic_subjugate_cyprus = {
+		icon = me_mission_venice_small_ship_in_port
+		position = 19
+		required_missions = { sic_subjugate_naxos }
+		trigger = {
+			CYP = {
+				exists = yes
+				is_subject = no
+				has_opinion = {
+					who = ROOT
+					value = 190
+				}
+				owes_favors = {
+					who = ROOT
+					value = 20
+				}
+			}
+		}
+		effect = {
+			create_subject = {
+				subject_type = hereditary_pronoia_subject_type
+				subject = CYP
+			}
+		}
+	}
+}
