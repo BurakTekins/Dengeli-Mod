@@ -1,0 +1,72 @@
+#Country Name: Rhineward
+
+graphical_culture = westerngfx
+
+color = { 110 50 140 }
+
+revolutionary_colors = { 3 5 2 }
+
+historical_idea_groups = {
+	offensive_ideas
+	quality_ideas
+	economic_ideas
+	administrative_ideas
+	infrastructure_ideas
+	innovativeness_ideas
+	defensive_ideas
+	religious_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknecht
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Wilhelm #0" = 100
+	"Ludwig #1" = 40
+	"Friedrich #0" = 40
+	"Heinrich #1" = 30
+	"Hermann #1" = 20
+	"Karl #0" = 20
+	"Philipp #0" = 20
+	"Otto #1" = 15
+	"Georg #0" = 15
+	"Albrecht #0" = 15
+	"Ernst #0" = 15
+	"Balthasar #0" = 10
+	"Wilhelm Ernst #0" = 10
+	"Johann #0" = 10
+	"Moritz #0" = 10
+	"Adolf #0" = 5
+	"Christian #0" = 5
+	"Leopold #0" = 5
+	"Elisabeth #0" = -1
+	"Anna #0" = -1
+	"Sophie #0" = -1
+}
+
+leader_names = {
+	von Hessen "von Thüringen" von Wettin von Hanau
+	Riedesel "von Boyneburg" "von Schwarzburg" "von Gleichen"
+	von Bibra Trott Schenck "von der Tann" Diede
+}
+
+ship_names = {
+	Hessen Thüringen Kassel Erfurt Marburg Weimar Fulda Eisenach
+}
+
+army_names = {
+	"Armee von $PROVINCE$"
+}

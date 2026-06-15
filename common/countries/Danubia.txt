@@ -1,0 +1,70 @@
+#Country Name: Margravaria
+
+graphical_culture = westerngfx
+
+color = { 215 195 155 }
+
+revolutionary_colors = { 5 2 2 }
+
+historical_idea_groups = {
+	aristocracy_ideas
+	offensive_ideas
+	diplomatic_ideas
+	trade_ideas
+	economic_ideas
+	influence_ideas
+	quality_ideas
+	religious_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Karl #6" = 80
+	"Friedrich #0" = 40
+	"Maximilian #2" = 40
+	"Ludwig #1" = 30
+	"Albrecht #0" = 30
+	"Leopold #1" = 30
+	"Ferdinand #1" = 20
+	"Rudolf #2" = 20
+	"Johann #0" = 15
+	"Wilhelm #0" = 15
+	"Ernst #0" = 10
+	"Sigmund #0" = 10
+	"Otto #1" = 10
+	"Heinrich #0" = 10
+	"Georg #0" = 5
+	"Stephan #0" = 5
+	"Margarethe #0" = -1
+	"Maria #0" = -1
+	"Elisabeth #0" = -1
+}
+
+leader_names = {
+	"von Wittelsbach" "von Habsburg" "von Starhemberg" "von Khevenhüller"
+	"von Liechtenstein" "von Auersperg" "von Dietrichstein" "von Lamberg"
+	"von Trauttmansdorff" "von Harrach" "von Cilli" "von Wallsee"
+}
+
+ship_names = {
+	Wien Donau Österreich "Heiliger Leopold" Steyr Tirol Krain
+	Kärnten Steiermark "Maria Theresia"
+}
+
+army_names = {
+	"Armee von $PROVINCE$"
+}

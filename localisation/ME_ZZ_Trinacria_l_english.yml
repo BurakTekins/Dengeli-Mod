@@ -1,0 +1,27 @@
+﻿l_english:
+ TNC:0 "Crown of Isles"
+ TNC_ADJ:0 "Insular"
+
+ blessed_plutocracy:0 "Blessed Plutocracy"
+ blessed_plutocracy_desc:0 "The wealth of a thousand harbours has made merchants the true lords of our realm, yet their councils convene beneath the blessing of the Church. Galleys, gold and grace bind the isles as one: the rich rule, the faith sanctifies, and the sea provides for all."
+
+ form_trinacria_nation_title:0 "Form the Crown of Isles"
+ form_trinacria_nation_desc:0 "From Palermo to Cyprus, the Norman kings of Sicily have gathered every isle of the Inner Sea beneath a single crown. Sardinia, Corsica, the Baleares, Malta, the Aegean and Crete, Rhodes and the Cypriot shores all now answer to us. Let us cast off the old name of a single island and proclaim the Crown of Isles — a blessed plutocracy whose dominion is the Mediterranean itself, master of every wave between the Pillars of Hercules and the Levant."
+
+ trinacria_ideas:0 "Insular Ideas"
+ trinacria_ideas_start:0 "Insular Traditions"
+ trinacria_ideas_bonus:0 "Insular Ambition"
+ trinacria_mare_nostrum:0 "Mare Nostrum"
+ trinacria_mare_nostrum_desc:0 "The Inner Sea is not a barrier but a highway, and it is ours. Our crews are born on the water and fight as though the deck were their own soil, breaking the resolve of any fleet that dares contest our waters."
+ trinacria_island_fortresses:0 "Island Fortresses"
+ trinacria_island_fortresses_desc:0 "Every island we hold is a bastion ringed by the sea. Strong garrisons and well-kept citadels turn our scattered isles into an unbroken chain of fortresses that no invader can hope to storm cheaply."
+ trinacria_levantine_commerce:0 "Levantine Commerce"
+ trinacria_levantine_commerce_desc:0 "Our factors sit in every harbour from Barcelona to Famagusta, steering the flow of goods through the channels we command and drawing the wealth of three continents into our ports."
+ trinacria_merchant_fleets:0 "Merchant Fleets"
+ trinacria_merchant_fleets_desc:0 "Trinacrian convoys reach further than any rival's, knitting distant markets to our trade and planting our merchants wherever profit can be found across the breadth of the sea."
+ trinacria_master_shipwrights:0 "Master Shipwrights"
+ trinacria_master_shipwrights_desc:0 "The yards of Palermo, Messina and Cagliari have perfected their craft over generations. Our hulls are tougher, our ships cheaper, and our fleets replaced faster than any enemy can sink them."
+ trinacria_admiralty_of_the_seas:0 "Admiralty of the Seas"
+ trinacria_admiralty_of_the_seas_desc:0 "A standing admiralty trains the finest captains of the age. Schooled in the close, brutal melee of Mediterranean galley warfare, our admirals close with the enemy and shatter their lines."
+ trinacria_corsairs_of_the_two_seas:0 "Corsairs of the Two Seas"
+ trinacria_corsairs_of_the_two_seas_desc:0 "From the Tyrrhenian to the Levant, our raiders choke the harbours of our foes and harry their commerce. Our sailors return to the fleet as swiftly as the tide, ever ready for the next venture."

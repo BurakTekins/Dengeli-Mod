@@ -166,6 +166,15 @@ vassal = {
 	end_date = 1729.6.1 #Portuguese Expelled
 }
 
+#Ajuuran Vassal
+
+vassal = {
+	first = AJU
+	second = MDI
+	start_date = 1444.1.1
+	end_date = 1615.1.1
+}
+
 #Kongo
 
 vassal = {

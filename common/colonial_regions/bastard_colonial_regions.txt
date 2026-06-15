@@ -164,33 +164,6 @@ colonial_south_africa = {
 		name = "COLONIAL_REGION_New_Root_GetName"
 	}
 }
-
-colonial_east_africa = {
-	color = { 190 110 40 }
-
-	provinces = {
-		# Zanzibar
-		788 1183 1186 1192 1195 1196 1197 1198 1199 1200 1201 1202
-		1203 1204 2774 2796 4049
-
-		# Horn of Africa
-		1205 1206 1207 1209 2024 2775 2776 2778 2779 2780 2781
-		2782 2783 2784 2785 2786 2788 2789 2790 2792 2794 2795
-
-		# African Great Lakes
-		1273 1798 1799 1925 2777 4051 4052 4053 4054 4055 4056 4057
-		4058 4059 4060 4061 4062 4063 4064 4065 4066 4067 4068 4069
-		4070 4071 4072 4073 4074 4075 4076 4077
-	}
-
-	names = {
-		name = "COLONIAL_EAST_AFRICA_Root_Culture_GetName_EastAfrica"
-	}
-	names = {
-		name = "COLONIAL_REGION_New_Root_GetName"
-	}
-}
-
 # Canada
 #colonial_canada = {
 #	color = { 20 50 210 }
