@@ -1,16 +1,16 @@
 # - Eger
 
-owner = BYT
-controller = BYT
-add_core = BYT
+owner = BOH
+controller = BOH
+add_core = BOH
 capital = "Eger"
-culture = franconian
+culture = czech
 religion = catholic
 trade_goods = gold #Joachimstal mines
 hre = yes
-base_tax = 5
-base_production = 5
-base_manpower = 5
+base_tax = 4
+base_production = 4
+base_manpower = 2
 is_city = yes
 discovered_by = western
 discovered_by = eastern

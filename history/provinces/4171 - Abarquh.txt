@@ -27,7 +27,7 @@ discovered_by = nomad_group
 } # Fars and surroundings to Qara Quyunlu
 1458.9.1 = { unrest = 5 } # Civil war in Qara Quyunlu
 1458.12.1 = { unrest = 0 }
-1468.6.1 = { controller = TIM } #Invasion of Abu Said
+1468.6.1 = { } #Invasion of Abu Said
 1469.2.4 = { controller = AKK owner = AKK add_core = AKK remove_core = QAR } #Battle of Qarabagh
 1474.1.1 = { unrest = 3 } # Rebellion
 1475.1.1 = { unrest = 0 }
